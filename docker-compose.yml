@@ -34,7 +34,7 @@ services:
     # Please refer to the documentation:
     # https://discordtickets.app/self-hosting/configuration/#environment-variables
     environment:
-      DB_CONNECTION_URL: mysql://tickets:${MYSQL_PASSWORD}@mysql/tickets
+      DB_CONNECTION_URL=mysql://tickets:REMOVED_PASSWORD@mysql:3306/tickets
       DISCORD_SECRET: ${DISCORD_SECRET}
       DISCORD_TOKEN: ${DISCORD_TOKEN}
       ENCRYPTION_KEY: ${ENCRYPTION_KEY}
