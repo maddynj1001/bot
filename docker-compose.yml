@@ -34,12 +34,12 @@ services:
     # Please refer to the documentation:
     # https://discordtickets.app/self-hosting/configuration/#environment-variables
     environment:
-      DB_CONNECTION_URL=mysql://tickets:${MYSQL_PASSWORD}@mysql:3306/tickets
+      DB_CONNECTION_URL: "mysql://tickets:${MYSQL_PASSWORD}@mysql:3306/tickets"
       DISCORD_SECRET: ${DISCORD_SECRET}
       DISCORD_TOKEN: ${DISCORD_TOKEN}
       ENCRYPTION_KEY: ${ENCRYPTION_KEY}
       DB_PROVIDER: mysql
-      HTTP_EXTERNAL: http://owomienetwork.com:8169 # change this to your server's external IP (or domain)
+      HTTP_EXTERNAL: http://www.owomienetwork.com:8169 # change this to your server's external IP (or domain)
       HTTP_HOST: 0.0.0.0
       HTTP_INTERNAL:
       HTTP_PORT: 8169
