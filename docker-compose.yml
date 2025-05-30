@@ -47,7 +47,7 @@ services:
       INVALIDATE_TOKENS:
       OVERRIDE_ARCHIVE: null
       PUBLIC_BOT: "false"
-      PUBLISH_COMMANDS: "false"
+      PUBLISH_COMMANDS: "true"
       SUPER: 319467558166069248 # optionally add `,youruseridhere`
 
 networks:
