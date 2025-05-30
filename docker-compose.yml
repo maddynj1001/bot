@@ -12,7 +12,7 @@ services:
     environment:
       MYSQL_DATABASE: tickets
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      MYSQL_ROOT_PASSWORD: ${MYSQL__ROOT_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: tickets
 
   bot:
@@ -39,7 +39,7 @@ services:
       DISCORD_TOKEN: ${DISCORD_TOKEN}
       ENCRYPTION_KEY: ${ENCRYPTION_KEY}
       DB_PROVIDER: mysql
-      HTTP_EXTERNAL: http://127.0.0.1:8169 # change this to your server's external IP (or domain)
+      HTTP_EXTERNAL: http://owomienetwork.com:8169 # change this to your server's external IP (or domain)
       HTTP_HOST: 0.0.0.0
       HTTP_INTERNAL:
       HTTP_PORT: 8169
